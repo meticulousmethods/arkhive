@@ -1,0 +1,46 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "arkhive",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/arkhive.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "arkhive list-backups",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/arkhive.py",
+            "args": [
+                "--list-backups",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },        
+        {
+            "name": "arkhive restore",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/arkhive.py",
+            "args": [
+                "--restore",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "arkhive verify",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/arkhive.py",
+            "args": [
+                "--verify",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
